@@ -1,0 +1,73 @@
+.task-list-container {
+    background-image: url("backgroundImg.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+} 
+
+#task-list-box
+{
+    max-height: 80vh;
+    width: 900px;
+    padding: 30px;
+    background-color: #fffab8d7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+}
+
+.task-list-container h2
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.task-list-table {
+    border-collapse: collapse;
+}
+
+.task-list-table th,
+.task-list-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.task-list-table th {
+    text-align: center;
+}
+
+.task-list-table tr:hover {
+    background-color: #fff56265;;
+}
+
+.task-list-edit-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.task-list-actions {
+    display: flex;
+    align-items: center;
+}
+
+.task-list-actions button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list-actions button.edit-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.task-list-actions button.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
